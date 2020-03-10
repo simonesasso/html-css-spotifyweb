@@ -1,0 +1,91 @@
+/* GENERALI -------------------------------*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style-type: none;
+}
+
+/* HEADER-------------------------------------------*/
+header{
+  position: fixed;
+  top: 0;
+  height: 80px;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#nav-upgrade{
+  margin-right: 5%;
+  color: white;
+  border: 1px solid white;
+  padding: 5px 15px;
+  border-radius: 12px;
+}
+/* MAIN -----------------------------------*/
+main{
+  height: calc(100vh - 80px);
+  background-color: red;
+  width: 100%;
+  display: flex;
+}
+/* side-menu ----------------------------------------*/
+.side-menu{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  padding-top: 16px;
+  width: 250px;
+  height: 100%;
+  background-color: black;
+  z-index: 99;
+  color: white;
+}
+#logo{
+  width: 150px;
+  height: auto;
+  margin-left: 15px;
+}
+.first-ul-side{
+  margin-top: 16px;
+}
+.loghi-side{
+  width: 30px;
+  height: auto;
+  margin-right: 5px;
+}
+.link-side{
+  color: grey;
+  display: flex;
+  align-items: center;
+  padding: 5px 0 5px 15px;
+}
+.link-side:hover{
+  border-left: 1px solid lime;
+  padding-left: 14px;
+}
+/* main section ----------------------------------------*/
+.main-section{
+  padding-top: 80px;
+  width: calc(100% - 200px);
+  height: 100%;
+  background-color: pink;
+  overflow-y: scroll;
+  display: flex;
+}
+/* FOOTER -------------------------------*/
+footer{
+  position: fixed;
+  bottom: 0;
+  height: 80px;
+  background-color: #282828;
+  width: 100%;
+}
