@@ -41,6 +41,7 @@ main{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: flex-start;
 
   padding-top: 16px;
   width: 250px;
@@ -53,15 +54,69 @@ main{
   width: 150px;
   height: auto;
   margin-left: 15px;
+
 }
 .first-ul-side{
   margin-top: 16px;
+}
+.second-ul-side{
+  min-height: 100px;
+  height: 150px;
+  width: 220px;
+  overflow-y: scroll;
 }
 .loghi-side{
   width: 30px;
   height: auto;
   margin-right: 5px;
 }
+#logo-crea{
+  background-color: grey;
+  color: black;
+  padding: 5px 10px;
+  margin-right: 15px;
+}
+/* install-e-profile-----*/
+.install-e-profile{
+  width: 92%;
+  margin: 0 auto;
+  margin-top: 14vh;
+}
+
+
+
+.download{
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+.download-link{
+  color: grey;
+}
+#installa{
+  color: white;
+}
+#download-icon{
+  width: 18px;
+  height: auto;
+  margin-right: 15px;
+}
+.profilo{
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  border-top: 1px solid grey;
+}
+#profile-icon{
+  width: 15px;
+  height: auto;
+  background-color: grey;
+  border-radius: 12px;
+  margin-right: 15px;
+}
+
+
+/* generic ----------------------*/
 .link-side{
   color: grey;
   display: flex;
@@ -71,9 +126,10 @@ main{
 .link-side:hover{
   border-left: 1px solid lime;
   padding-left: 14px;
+  color: white;
 }
 /* main section ----------------------------------------*/
-.main-section{
+.main-section-destra{
   padding-top: 80px;
   width: calc(100% - 200px);
   height: 100%;
@@ -88,4 +144,5 @@ footer{
   height: 80px;
   background-color: #282828;
   width: 100%;
+  z-index: 122;
 }
