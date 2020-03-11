@@ -52,13 +52,13 @@ main{
 /* side-menu ----------------------------------------*/
 .side-menu{
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
+
   align-items: flex-start;
   justify-content: flex-start;
   padding-top: 16px;
   width: 200px;
-  height: 100%;
+  height: calc(100% - 80px);
   background-color: black;
   z-index: 99;
   color: white;
@@ -97,9 +97,12 @@ main{
 .install-e-profile{
   width: 92%;
   margin: 0 auto;
-  align-self: flex-end;
+  height: 80px;
+  color: white;
 }
-
+.contenitore-side{
+  background-color: black;
+}
 
 
 .download{
@@ -185,8 +188,8 @@ main{
   text-align: center;
   flex-shrink: 0;
 }
-.album-2, .album-3{
-  padding: 5px 20px;
+ .album-3{
+  padding: 5px 18px;
 }
 .album-img{
   width: 150px;
@@ -264,9 +267,24 @@ i{
    margin-right: 20px;
  }
 /* MEDIA QUERY ---------------------------------------------*/
-@media screen and (max-width: 400px){
+@media screen and (max-width: 320px){
+  .album-img{
+    width: 100px;
+    height: auto;
+  }
+  .album-2, .album-3{
+    padding: 5px 18px;
+  }
+  .first-ul-side{
+    margin-top: 65px;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 400px){
   .album-2, .album-3{
     padding: 5px;
+  }
+  .first-ul-side{
+    margin-top: 65px;
   }
 }
 @media screen and (max-width: 700px){
@@ -301,5 +319,33 @@ i{
   }
   #logo{
     display: none;
+  }
+  .barra-tempo{
+    width: 100px;
+  }
+  i{
+    padding: 0 5px;
+  }
+  .icone-controlli {
+    padding: 16px 0 18px 0px;
+    font-size: 15px;
+  }
+  .barra-tempo{
+    margin-left: 9px;
+  }
+  footer{
+    font-size: 10px;
+  }
+  .player{
+    margin-left: 0px;
+  }
+  .album-cover{
+    margin-left: 4px;
+  }
+  .player-audio{
+    margin-right: 5px;
+  }
+  .barra-audio{
+    width: 38px;
   }
 }
