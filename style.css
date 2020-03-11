@@ -45,7 +45,7 @@ header{
 /* MAIN -----------------------------------*/
 main{
   height: calc(100vh - 80px);
-  background-color: red;
+  background-color: #141922;
   width: 100%;
   display: flex;
 }
@@ -69,7 +69,9 @@ main{
   width: 150px;
   height: auto;
   margin-left: 15px;
-
+}
+#logo-1, #logo-2, #logo-3{
+  display: none;
 }
 .first-ul-side{
   margin-top: 16px;
@@ -108,7 +110,7 @@ main{
 .download-link{
   color: grey;
 }
-#installa{
+.installa{
   color: white;
 }
 #download-icon{
@@ -201,4 +203,103 @@ footer{
   background-color: #282828;
   width: 100%;
   z-index: 122;
+  display: flex;
+  justify-content: space-between;
+}
+i{
+  padding: 0 15px;
+}
+.player{
+  display: flex;
+  align-items: center;
+}
+.player-controls{
+  text-align: center;
+}
+.icone-controlli{
+  padding: 22px 0 10px 25px;
+
+}
+.icone-controlli ul{
+  display: flex;
+}
+#player-album-img{
+  width: 35px;
+  height: auto;
+}
+.player-audio{
+  display: flex;
+  align-items: center;
+}
+.player-audio ul{
+  display: flex;
+}
+.barra-audio{
+  width: 80px;
+  background-color: grey;
+  height: 4px;
+}
+.barra-audio-interna{
+  width: 15px;
+  background-color: lime;
+  height: 4px;
+}
+.barra-tempo{
+  width: 280px;
+  background-color: grey;
+  height: 4px;
+}
+.barra-tempo-interna{
+  width: 15px;
+  background-color: lime;
+  height: 4px;
+}
+.player-txt{
+  margin-left: 5px;
+}
+.player{
+  margin-left: 20px;
+}
+ .player-audio{
+   margin-right: 20px;
+ }
+/* MEDIA QUERY ---------------------------------------------*/
+@media screen and (max-width: 400px){
+  .album-2, .album-3{
+    padding: 5px;
+  }
+}
+@media screen and (max-width: 700px){
+  .link-side{
+    display: none;
+  }
+  #logo-1, #logo-2, #logo-3{
+    display: block;
+    padding: 5px 0 5px 5px;
+  }
+  .side-menu{
+    width: 35px;
+  }
+  .main-section-destra{
+    width: calc(100% - 35px);
+  }
+  #download-icon{
+    margin-left: 5px;
+  }
+  #profile-icon{
+    margin-left: 7px;
+  }
+  .download, .profilo{
+    text-align: center;
+  }
+  .second-ul-side{
+    overflow: hidden;
+  }
+
+  .nome, .installa, .secon-ul-side{
+    display: none;
+  }
+  #logo{
+    display: none;
+  }
 }

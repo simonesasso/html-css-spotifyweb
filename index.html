@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title>Spotify</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link fontawesome ------------------------------------------------->
+    <script src="https://kit.fontawesome.com/3226911cfb.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
@@ -24,6 +26,9 @@
            <li><a class="link-side" href="#"><img src="immagini/home.svg" alt="logo" class="loghi-side">Home</a></li>
            <li><a class="link-side" href="#"><img src="immagini/search.svg" alt="logo" class="loghi-side">Cerca</a></li>
            <li><a class="link-side" href="#"><img src="immagini/libreria.svg" alt="logo" class="loghi-side">La tua libreria</a></li>
+           <li><img src="immagini/home.svg" alt="logo" class="loghi-side" id="logo-1"></li>
+           <li><img src="immagini/search.svg" alt="logo" class="loghi-side" id="logo-2"></li>
+           <li><img src="immagini/libreria.svg" alt="logo" class="loghi-side" id="logo-3"></li>
          </ul>
        </div>
 
@@ -47,10 +52,10 @@
 
      <div class="install-e-profile">
          <div class="download">
-           <a href="#" class="download-link"><img src="immagini/download.svg" alt="img" id="download-icon"></a><a href="#" id="installa">Installa App</a>
+           <a href="#" class="download-link"><img src="immagini/download.svg" alt="img" id="download-icon"></a><a href="#" class="installa">Installa App</a>
          </div>
          <div class="profilo">
-           <img src="immagini/profile.svg" id="profile-icon" alt="img"><span>John Doe</span>
+           <img src="immagini/profile.svg" id="profile-icon" alt="img"><span class="nome">John Doe</span>
          </div>
      </div>
     </div>
@@ -134,6 +139,51 @@
 
     </main>
     <footer>
+      <div class="player">
+        <div class="album-cover">
+          <img src="immagini/sinister.jpeg" alt="" id="player-album-img">
+        </div>
+        <div class="player-txt">
+          <p>Sinister</p>
+          <p>Nome Brano</p>
+        </div>
+        <div class="player-icone">
+          <a href="#"><i class="far fa-folder"></i></a>
+          <a href="#"><i class="far fa-heart"></i></a>
+        </div>
+      </div>
+
+      <div class="player-controls">
+        <div class="icone-controlli">
+          <ul>
+            <li><a href="#"><i class="fas fa-random"></i></a></li>
+            <li><a href="#"><i class="fas fa-step-backward"></i></a></li>
+            <li><a href="#"><i class="far fa-play-circle"></i></a></li>
+            <li><a href="#"><i class="fas fa-step-forward"></i></a></li>
+            <li><a href="#"><i class="fas fa-redo"></i></a></li>
+          </ul>
+
+        </div>
+        <div class="barra-tempo">
+          <div class="barra-tempo-interna">
+
+          </div>
+        </div>
+      </div>
+
+      <div class="player-audio">
+        <ul>
+          <li><a href="#"><i class="fas fa-list-ul"></i></a></li>
+          <li><a href="#"><i class="fas fa-desktop"></i></a></li>
+          <li><a href="#"><i class="fas fa-volume-up"></i></a></li>
+        </ul>
+        <div class="barra-audio">
+          <div class="barra-audio-interna">
+
+          </div>
+        </div>
+      </div>
+
 
     </footer>
 
