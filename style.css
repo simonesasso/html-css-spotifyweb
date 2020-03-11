@@ -259,6 +259,7 @@ i{
 }
 .player-txt{
   margin-left: 5px;
+  color: white;
 }
 .player{
   margin-left: 20px;
@@ -277,6 +278,9 @@ i{
   }
   .first-ul-side{
     margin-top: 65px;
+  }
+  .player-audio{
+    margin-left: -16px;
   }
 }
 @media screen and (min-width: 321px) and (max-width: 400px){
@@ -319,6 +323,9 @@ i{
   }
   #logo{
     display: none;
+  }
+  .player-controls{
+    margin-right: 15px;
   }
   .barra-tempo{
     width: 100px;
