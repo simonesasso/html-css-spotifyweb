@@ -6,11 +6,24 @@
 }
 a{
   text-decoration: none;
+  color: grey;
+}
+a:hover{
+  color: white;
 }
 ul{
   list-style-type: none;
 }
-
+h2,h4{
+  color: white;
+  font-weight: bold;
+}
+h2,h5{
+  padding: 5px 20px;
+}
+h5{
+  color: grey;
+}
 /* HEADER-------------------------------------------*/
 header{
   position: fixed;
@@ -39,17 +52,19 @@ main{
 /* side-menu ----------------------------------------*/
 .side-menu{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: flex-start;
   justify-content: flex-start;
-
   padding-top: 16px;
-  width: 250px;
+  width: 200px;
   height: 100%;
   background-color: black;
   z-index: 99;
   color: white;
+  font-size: 12px;
 }
+
 #logo{
   width: 150px;
   height: auto;
@@ -60,11 +75,11 @@ main{
   margin-top: 16px;
 }
 .second-ul-side{
-  min-height: 100px;
-  height: 150px;
-  width: 220px;
+  height: 100px;
+  width: 170px;
   overflow-y: scroll;
 }
+
 .loghi-side{
   width: 30px;
   height: auto;
@@ -80,7 +95,7 @@ main{
 .install-e-profile{
   width: 92%;
   margin: 0 auto;
-  margin-top: 14vh;
+  align-self: flex-end;
 }
 
 
@@ -130,12 +145,53 @@ main{
 }
 /* main section ----------------------------------------*/
 .main-section-destra{
-  padding-top: 80px;
+  padding-top: 100px;
   width: calc(100% - 200px);
   height: 100%;
-  background-color: pink;
+  background-color: #141922;
   overflow-y: scroll;
   display: flex;
+  flex-direction: column;
+}
+
+
+
+.menu{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: white;
+}
+.menu li{
+  padding-left: 12px;
+}
+.album-riga-1{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 15px 0;
+}
+.album-riga-2{
+ display: flex;
+ padding: 15px 0;
+}
+.album-riga-3{
+ display: flex;
+ padding: 15px 0;
+}
+.album{
+  text-align: center;
+  flex-shrink: 0;
+}
+.album-2, .album-3{
+  padding: 5px 20px;
+}
+.album-img{
+  width: 150px;
+  height: auto;
+}
+.round{
+  border-radius: 100%;
 }
 /* FOOTER -------------------------------*/
 footer{
