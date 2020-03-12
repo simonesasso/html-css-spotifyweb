@@ -202,6 +202,10 @@ main{
 .menu li{
   padding-left: 12px;
 }
+ .a-menu:hover{
+  border-bottom: 1px solid lime;
+
+}
 .album-riga-1{
   display: flex;
   justify-content: space-around;
@@ -307,7 +311,7 @@ i{
     height: auto;
   }
   .album-2, .album-3{
-    padding: 5px 21px;
+    padding: 5px 16px;
   }
   .first-ul-side{
     margin-top: 65px;
