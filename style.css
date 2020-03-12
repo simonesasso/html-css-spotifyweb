@@ -74,7 +74,7 @@ main{
   width: 150px;
   height: auto;
   margin-left: 15px;
-  z-index: 12;
+  z-index: 72;
 }
 #logo-1, #logo-2, #logo-3{
   display: none;
