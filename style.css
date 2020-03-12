@@ -63,7 +63,7 @@ main{
   justify-content: flex-start;
   padding-top: 16px;
   width: 200px;
-  height: calc(100% - 80px);
+  min-height: calc(100% - 80px);
   background-color: black;
 
   color: white;
