@@ -28,7 +28,7 @@
   color: red;
 }
 .scritta-div-grey{
-  margin-left: 38%;
+  margin-left: calc(50% - 147px);
 }
 /* div black -------------------------------*/
 .top-div-black{
@@ -43,7 +43,7 @@
 
 .scritta-div-black{
   color: white;
-  margin-right: 40%;
+  margin-right: calc(50% - 159px);
 }
 
 .full-scren-span{
@@ -137,8 +137,10 @@ span{
   .div-3-footer{
     margin-right: 2px;
   }
-
   span{
+    font-size: 7px;
+  }
+  .span-footer{
     font-size: 7px;
   }
   .scritta-div-grey{
@@ -161,15 +163,17 @@ span{
   .div-3-footer{
     margin-right: 2px;
   }
-
   span{
+    font-size: 7px;
+  }
+  .span-footer{
     font-size: 9px;
   }
   .scritta-div-grey{
-    margin-left: 25%;
+    margin-left: calc(50% - 88px);
   }
   .scritta-div-black{
-    margin-right: 17%;
+   margin-right: calc(50% - 99px);
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1224px){
