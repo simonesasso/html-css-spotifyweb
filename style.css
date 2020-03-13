@@ -58,17 +58,17 @@ main{
 .side-menu{
   display: flex;
   flex-direction: column;
-
   align-items: flex-start;
   justify-content: flex-start;
   padding-top: 16px;
   width: 200px;
   min-height: calc(100% - 80px);
   background-color: black;
-
   color: white;
   font-size: 12px;
 }
+
+
 
 #logo{
   width: 150px;
@@ -362,9 +362,7 @@ i{
   .download, .profilo{
     text-align: center;
   }
-  .second-ul-side{
-    overflow: hidden;
-  }
+ 
 
   .nome, .installa, .secon-ul-side{
     display: none;
