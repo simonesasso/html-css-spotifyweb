@@ -63,6 +63,7 @@ main{
   padding-top: 16px;
   width: 200px;
   height: calc(100% - 80px);
+  min-height: 260px;
   background-color: black;
   color: white;
   font-size: 12px;
@@ -82,11 +83,13 @@ main{
 .first-ul-side{
   margin-top: 16px;
 }
+
 .second-ul-side{
-  height: 200px;
+  max-height: 200px;
   width: 170px;
   overflow-y: auto;
 }
+
 
 
 .loghi-side{
@@ -106,6 +109,7 @@ main{
   margin: 0 auto;
   height: 80px;
   color: white;
+
 }
 .contenitore-side{
   background-color: black;
@@ -116,6 +120,7 @@ main{
   display: flex;
   align-items: center;
   padding: 10px 0;
+
 }
 .download-link{
   color: grey;
