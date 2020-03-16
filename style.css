@@ -62,7 +62,7 @@ main{
   justify-content: flex-start;
   padding-top: 16px;
   width: 200px;
-  min-height: calc(100% - 80px);
+  height: calc(100% - 80px);
   background-color: black;
   color: white;
   font-size: 12px;
@@ -83,10 +83,11 @@ main{
   margin-top: 16px;
 }
 .second-ul-side{
-  height: 100px;
+  height: 200px;
   width: 170px;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
+
 
 .loghi-side{
   width: 30px;
@@ -160,7 +161,7 @@ main{
   width: calc(100% - 200px);
   height: 100%;
   background-color: #141922;
-  overflow-y: scroll;
+  overflow-y: auto;
   display: flex;
   flex-direction: column;
 }
@@ -362,7 +363,7 @@ i{
   .download, .profilo{
     text-align: center;
   }
- 
+
 
   .nome, .installa, .secon-ul-side{
     display: none;
